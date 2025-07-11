@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #nav_head{
-    height: 70px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -29,4 +29,42 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+.sec_size{
+    height: 650px;
+    width: 100%;
+}
+
+#sec_1{
+    padding-top: 10%;
+    background-image: url(photo_video/sec_1_bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+#sec_1 div{
+    height: 80%;
+    width: 30%;
+    border-radius: 5%;
+}
+#s1d1
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+#txt2{
+    font-size: x-large;
+}
+#s1form{
+    background-color: white;
 }
