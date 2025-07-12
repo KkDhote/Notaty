@@ -47,8 +47,8 @@
 
 #sec_1 div{
     height: 80%;
-    width: 30%;
-    border-radius: 5%;
+    width: 35%;
+    border-radius: 1%;
 }
 #s1d1
 {
@@ -84,4 +84,43 @@
 }
 #s1form_button{
     background-color: #fee2b3;
+    border-color: #fee2b3;
+}
+
+#sec_2{
+    background-color: #f8f9fa;
+}
+
+#s2d1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2d1t{
+    text-align: center;
+}
+#s2d1t1{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#s2d2{
+    height: 70%;
+    width: 100%;
+}
+.s2d2_od{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.br_box{
+    height: 90%;
+    width: 20%;
+    border-radius: 5%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
