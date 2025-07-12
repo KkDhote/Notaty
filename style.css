@@ -67,4 +67,21 @@
 }
 #s1form{
     background-color: white;
+    
+}
+#s1form_heading{
+    margin-top: 15%;
+    font-size: xx-large;
+    color: #364d59;
+    font-weight: 10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.s1form_cont{
+    height: 40px;
+    width: 90%; 
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#s1form_button{
+    background-color: #fee2b3;
 }
