@@ -123,4 +123,27 @@
     border-radius: 5%;
     background-color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.br_box_in{
+    height: 60%;
+    width: 80%;
+}
+.br_box_in h3{
+    font-size: 24px;
+}
+.br_box_in p{
+    color:rgb(60,63,66);
+    font-size: small;
+}
+.br_icon{
+    height:30px;
+    width:30px;
+    background-color: #fee2b3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
