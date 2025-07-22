@@ -10,16 +10,30 @@
     
 </head>
 <body>
+    <input type="checkbox" id="check_box" class="check">
     <!-- navigator bar -->
     <header id="nav_head">
         <div id="ws_name">Notary</div>
-        <nav id="nav_bar">
-            <div class="cont"> Home</div>
-            <div class="cont">Practice Area</div>
-            <div class="cont">Testimonials</div>
-            <div class="cont">About</div>
-            <div class="cont">Contact</div>
-        </nav>
+        <label for="check_box" class="check" id="check_icon"><i class="fa-solid fa-bars"></i></label>
+      
+        <ul id="nav_bar" style="list-style: none;">
+            <li><a class="cont" href="#">Home</a></li>
+            <li><a class="cont" href="#">Practice Area<i class="fa-solid fa-caret-down"></i></a></li>
+            <!-- <li class="nav-item dropdown"> -->
+                <!-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a> -->
+                <!-- <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul> -->
+            </li>
+        
+            <li><a class="cont" href="#">Testimonials</a></li>
+            <li><a class="cont" href="#">About</a></li>
+            <li><a class="cont" href="#">Contact Us</a></li>
+        </ul>
     </header>
     <!-- main body -->
     <main id="main_cont">
